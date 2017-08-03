@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+require('commander')
+  .version(require('../package').version)
+  .usage('<command> [options]')
+  .command('init', '初始化一个模板项目')
+  .command('server', '启动本地项目服务')
+  .command('release', '代码发布')
+  .command('list', '显示可安装模板')
+  .parse(process.argv)

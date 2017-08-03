@@ -1,0 +1,34 @@
+{
+  "name": "llane-cli",
+  "version": "1.0.0",
+  "description": "前端自动化脚手架",
+  "main": "index.js",
+  "bin": {
+    "llane": "bin/llane",
+    "llane-init": "bin/llane-init",
+    "llane-server": "bin/llane-server",
+    "llane-release": "bin/llane-release",
+    "llane-list": "bin/llane-list"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "server": "npm run server",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuckdance/llane-cli.git"
+  },
+  "author": "lawrence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuckdance/llane-cli/issues"
+  },
+  "homepage": "https://github.com/fuckdance/llane-cli#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "chalk": "^2.0.1",
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.1"
+  }
+}
