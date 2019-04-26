@@ -1,7 +1,10 @@
 ## 使用说明
 ### 安装
 ```bash
+## http 安装
 npm install git+http://gitlab.joinuscn.com/jysd-fe/llane-cli.git -g
+## or ssh安装
+npm install git+git@gitlab.joinuscn.com:jysd-fe/llane-cli.git -g
 ```
 
 ### 首次使用
