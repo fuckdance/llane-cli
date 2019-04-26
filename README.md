@@ -14,6 +14,7 @@ llane config
 cd projectPath
 ```
 ```bash
+## 请按照配置清单输入相应项
 llane init
 ```
 ```bash
