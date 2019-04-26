@@ -1,3 +1,33 @@
+## 使用说明
+### 安装
+```bash
+npm install git+http://gitlab.joinuscn.com/jysd-fe/llane-cli.git -g
+```
+
+### 首次使用
+```bash
+llane config
+```
+
+### 首次发布
+```bash
+cd projectPath
+```
+```bash
+llane init
+```
+```bash
+## 测试服务器
+llane release
+## 正式服务器
+llane release prod 
+```
+
+
+
+
+### 当前所有项目发布配置清单
+```javascript
 .llane.project.json
 {"buildPath":"images","projectPath":"/assets/images"}
 
@@ -69,3 +99,4 @@ zwds-admin-static/.llane.project.json
 
 zwds_react/.llane.project.json
 {"buildPath":"/build","projectPath":"/events/article/pc"}
+```
